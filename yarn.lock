@@ -55,6 +55,15 @@
   resolved "https://registry.yarnpkg.com/@automattic/calypso-color-schemes/-/calypso-color-schemes-2.1.0.tgz#b175de4d4bd8f02dd56ee31dac4bb82c829ece99"
   integrity sha512-nj84cUbyAaHMS4/MN9sv3OAP6P17a0qLyM9RwCdmdGkJPnDWcOtNl1pwDr3ykEUE7UgX617bUB2OyadsIDJccQ==
 
+"@automattic/calypso-ui@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@automattic/calypso-ui/-/calypso-ui-1.0.0.tgz#ec6d414e67e9063d1b05d16834d6363ff1b0ca7c"
+  integrity sha512-vGA5gc7C7RRjELp4klp5RepiXS24ETMX9HM98IHoaj3RuOcCcFAWYoOV8keGWi/wc4n/YLwMVNY8AovEaIncpQ==
+  dependencies:
+    classnames "2.2.6"
+    prop-types "^15.7.2"
+    react "^16.8.3"
+
 "@automattic/custom-colors-loader@automattic/custom-colors-loader":
   version "1.0.0"
   resolved "https://codeload.github.com/automattic/custom-colors-loader/tar.gz/e102d3ae049662e77ba9ba9e9f9cf0627313b38c"
