@@ -222,7 +222,6 @@ class Jetpack_Search {
 				$options = array(
 					'postTypes'      => get_post_types(),
 					'siteId'         => Jetpack::get_option( 'id' ),
-					'tracksUserData' => Jetpack_Tracks_Client::get_connected_user_tracks_identity(),
 					'widgets'        => array_values( $widgets ),
 				);
 				/**

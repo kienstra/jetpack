@@ -12,7 +12,7 @@ import SearchApp from './components/search-app';
 import { getSearchQuery, getFilterQuery, getSortQuery } from './lib/query-string';
 import { getThemeOptions } from './lib/dom';
 import { SERVER_OBJECT_NAME } from './lib/constants';
-import { initializeTracks, identifyUser, identifySite } from './lib/tracks';
+import { initializeTracks, identifySite } from './lib/tracks';
 
 const injectSearchApp = grabFocus => {
 	render(
@@ -35,13 +35,7 @@ document.addEventListener( 'DOMContentLoaded', function() {
 		document.body.classList.contains( 'search' )
 	) {
 		initializeTracks();
-
-		if ( 'userid' in window[ SERVER_OBJECT_NAME ] && 'username' in window[ SERVER_OBJECT_NAME ] ) {
-			const { siteId, userid, username } = window[ SERVER_OBJECT_NAME ];
-			identifyUser( userid, username );
-			identifySite( siteId );
-		}
-
+		identifySite( window[ SERVER_OBJECT_NAME ].siteId );
 		injectSearchApp();
 	}
 } );
