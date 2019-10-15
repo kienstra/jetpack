@@ -357,11 +357,14 @@ __( "Enable Lazy Loading for images", "jetpack" ), // _inc/client/performance/sp
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "You’re currently on Jetpack %(plan)s.", "jetpack" ), // _inc/client/plans/plan-grid.jsx:62
 __( "Your Plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:70
 __( "Manage your plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:72
 __( "View all Jetpack plans", "jetpack" ), // _inc/client/plans/plan-grid.jsx:74
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -569,6 +572,9 @@ __( "Yearly", "jetpack" ), // _inc/client/plans/plan-grid.jsx:109
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -975,11 +981,14 @@ __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the cont
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:160
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1275,6 +1284,9 @@ _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composin
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1595,7 +1607,11 @@ __( "Download the free apps", "jetpack" ), // _inc/client/components/apps-card/i
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 _n( "No activity this period", "Notice in the empty statistics chart", 1, "jetpack" ), // _inc/client/components/chart/index.jsx:124
+=======
+_x( "No activity this period", "Notice in the empty statistics chart", "jetpack" ), // _inc/client/components/chart/index.jsx:124
+>>>>>>> Stashed changes
 =======
 _x( "No activity this period", "Notice in the empty statistics chart", "jetpack" ), // _inc/client/components/chart/index.jsx:124
 >>>>>>> Stashed changes
@@ -1727,22 +1743,9 @@ __( "By clicking the button below, you agree to our {{tosLink}}Terms of Service{
 _x( "Updates needed", "Short warning message", "jetpack" ), // _inc/client/components/dash-item/index.jsx:104
 __( "Active", "jetpack" ), // _inc/client/components/dash-item/index.jsx:110
 _x( "Paid", "Short label appearing near a paid feature configuration block.", "jetpack" ), // _inc/client/components/dash-item/index.jsx:122
-__( "This will reset all Jetpack options, are you sure?", "jetpack" ), // _inc/client/components/footer/index.jsx:36
-_x( "Reset Options (dev only)", "Navigation item.", "jetpack" ), // _inc/client/components/footer/index.jsx:100
-__( "Access the full list of Jetpack modules available on your site.", "jetpack" ), // _inc/client/components/footer/index.jsx:115
-_x( "Modules", "Navigation item. Noun. Links to a list of modules for Jetpack.", "jetpack" ), // _inc/client/components/footer/index.jsx:118
-__( "Test your site’s compatibility with Jetpack.", "jetpack" ), // _inc/client/components/footer/index.jsx:134
-_x( "Debug", "Navigation item. Noun. Links to a debugger tool for Jetpack.", "jetpack" ), // _inc/client/components/footer/index.jsx:137
-_x( "Dev Tools", "Navigation item.", "jetpack" ), // _inc/client/components/footer/index.jsx:157
-__( "An Automattic Airline", "jetpack" ), // _inc/client/components/footer/index.jsx:188
-__( "Jetpack version", "jetpack" ), // _inc/client/components/footer/index.jsx:203
-__( "Jetpack version %(version)s", "jetpack" ), // _inc/client/components/footer/index.jsx:205
-__( "About Jetpack", "jetpack" ), // _inc/client/components/footer/index.jsx:213
-_x( "About", "Link to learn more about Jetpack.", "jetpack" ), // _inc/client/components/footer/index.jsx:215
-__( "WordPress.com Terms of Service", "jetpack" ), // _inc/client/components/footer/index.jsx:224
-_x( "Terms", "Shorthand for Terms of Service.", "jetpack" ), // _inc/client/components/footer/index.jsx:227
-__( "Automattic's Privacy Policy", "jetpack" ), // _inc/client/components/footer/index.jsx:235
-_x( "Privacy", "Shorthand for Privacy Policy.", "jetpack" ), // _inc/client/components/footer/index.jsx:238
+__( "This will reset all Jetpack options, are you sure?", "jetpack" ), // _inc/client/components/footer/index.jsx:21
+_x( "Reset Options (dev only)", "Navigation item.", "jetpack" ), // _inc/client/components/footer/index.jsx:41
+_x( "Dev Tools", "Navigation item.", "jetpack" ), // _inc/client/components/footer/index.jsx:59
 __( "Saving…", "jetpack" ), // _inc/client/components/forms/index.jsx:148
 __( "Save Settings", "jetpack" ), // _inc/client/components/forms/index.jsx:148
 __( "Stars", "jetpack" ), // _inc/client/components/jetpack-dialogue/index.jsx:52
@@ -1904,6 +1907,9 @@ _x( "Writing", "Navigation item.", "jetpack" ), // _inc/client/components/naviga
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2036,10 +2042,13 @@ _x( "Save settings", "Button caption", "jetpack" ), // _inc/client/components/se
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 __( "Learn more", "jetpack" ), // _inc/client/components/support-info/index.jsx:79
 __( "Learn more", "jetpack" ), // _inc/client/components/support-info/index.jsx:89
 __( "Privacy information", "jetpack" ), // _inc/client/components/support-info/index.jsx:99
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
