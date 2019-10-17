@@ -364,11 +364,14 @@ __( "Enable Lazy Loading for images", "jetpack" ), // _inc/client/performance/sp
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "You’re currently on Jetpack %(plan)s.", "jetpack" ), // _inc/client/plans/plan-grid.jsx:62
 __( "Your Plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:70
 __( "Manage your plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:72
 __( "View all Jetpack plans", "jetpack" ), // _inc/client/plans/plan-grid.jsx:74
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -597,6 +600,9 @@ __( "Yearly", "jetpack" ), // _inc/client/plans/plan-grid.jsx:109
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1024,11 +1030,14 @@ __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the cont
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:160
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1345,6 +1354,9 @@ _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composin
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1606,35 +1618,6 @@ __( "Display images in a full-screen carousel gallery", "jetpack" ), // _inc/cli
 __( "Show photo Exif metadata in carousel (when available)", "jetpack" ), // _inc/client/writing/writing-media.jsx:99
 __( "Exif data shows viewers additional technical details of a photo, like its focal length, aperture, and ISO.", "jetpack" ), // _inc/client/writing/writing-media.jsx:104
 __( "Carousel color scheme", "jetpack" ), // _inc/client/writing/writing-media.jsx:111
-/* translators: Referring to a number of page views */
-__( "Views today", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:56
-/* translators: Referring to a number of page views */
-__( "Best overall day", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:62
-_n( "%(number)s View", "%(number)s Views", 1, "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:67
-/* translators: Referring to a number of page views */
-__( "All-time views", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:81
-/* translators: Referring to a number of comments */
-__( "All-time comments", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:89
-__( "{{button}}View detailed stats{{/button}}", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:100
-__( "{{button}}View more stats on WordPress.com {{/button}}", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:111
-__( "Connect your account to WordPress.com to view more stats", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:130
-__( "Week of %(date)s", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:77
-__( "Views: %(numberOfViews)s", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:96
-__( "Click to view detailed stats.", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:101
-__( "Jetpack Stats People", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:150
-__( "Hello there! Your stats have been activated.", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:154
-__( "Just give us a little time to collect data so we can display it for you here.", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:156
-__( "Okay, got it!", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:159
-__( "Something happened while loading stats. Please try again later or {{a}}view your stats now on WordPress.com{{/a}}", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:173
-__( "Jetpack Stats Icon", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:211
-__( "Unavailable in Dev Mode", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:217
-__( "{{a}}Activate Site Stats{{/a}} to see detailed stats, likes, followers, subscribers, and more! {{a1}}Learn More{{/a1}}", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:218
-__( "Activate Site Stats", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:237
-__( "Days", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:276
-__( "Weeks", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:286
-__( "Months", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:296
-__( "Site Stats", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:314
-__( "Site Stats", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:322
 __( "Get WordPress Apps for every device", "jetpack" ), // _inc/client/components/apps-card/index.jsx:67
 __( "Manage all your sites from a single dashboard: publish content, track stats, moderate comments, and so much more from anywhere in the world.", "jetpack" ), // _inc/client/components/apps-card/index.jsx:71
 __( "Download the free apps", "jetpack" ), // _inc/client/components/apps-card/index.jsx:81
@@ -1686,7 +1669,11 @@ __( "Download the free apps", "jetpack" ), // _inc/client/components/apps-card/i
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 _n( "No activity this period", "Notice in the empty statistics chart", 1, "jetpack" ), // _inc/client/components/chart/index.jsx:124
+=======
+_x( "No activity this period", "Notice in the empty statistics chart", "jetpack" ), // _inc/client/components/chart/index.jsx:124
+>>>>>>> Stashed changes
 =======
 _x( "No activity this period", "Notice in the empty statistics chart", "jetpack" ), // _inc/client/components/chart/index.jsx:124
 >>>>>>> Stashed changes
@@ -2010,6 +1997,9 @@ _x( "Writing", "Navigation item.", "jetpack" ), // _inc/client/components/naviga
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2163,10 +2153,13 @@ _x( "Save settings", "Button caption", "jetpack" ), // _inc/client/components/se
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 __( "Learn more", "jetpack" ), // _inc/client/components/support-info/index.jsx:79
 __( "Learn more", "jetpack" ), // _inc/client/components/support-info/index.jsx:89
 __( "Privacy information", "jetpack" ), // _inc/client/components/support-info/index.jsx:99
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -2250,6 +2243,35 @@ __( "Take me to the new editor", "jetpack" ), // _inc/client/components/upgrade-
 __( "Okay, got it!", "jetpack" ), // _inc/client/components/upgrade-notice-content/index.jsx:79
 __( "Jetpack is ready for the new WordPress editor", "jetpack" ), // _inc/client/components/upgrade-notice-content/index.jsx:93
 __( "New in Jetpack!", "jetpack" ), // _inc/client/components/upgrade-notice-content/index.jsx:96
+/* translators: Referring to a number of page views */
+__( "Views today", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:56
+/* translators: Referring to a number of page views */
+__( "Best overall day", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:62
+_n( "%(number)s View", "%(number)s Views", 1, "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:67
+/* translators: Referring to a number of page views */
+__( "All-time views", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:81
+/* translators: Referring to a number of comments */
+__( "All-time comments", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:89
+__( "{{button}}View detailed stats{{/button}}", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:100
+__( "{{button}}View more stats on WordPress.com {{/button}}", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:111
+__( "Connect your account to WordPress.com to view more stats", "jetpack" ), // _inc/client/at-a-glance/stats/dash-stats-bottom.jsx:130
+__( "Week of %(date)s", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:77
+__( "Views: %(numberOfViews)s", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:96
+__( "Click to view detailed stats.", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:101
+__( "Jetpack Stats People", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:150
+__( "Hello there! Your stats have been activated.", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:154
+__( "Just give us a little time to collect data so we can display it for you here.", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:156
+__( "Okay, got it!", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:159
+__( "Something happened while loading stats. Please try again later or {{a}}view your stats now on WordPress.com{{/a}}", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:173
+__( "Jetpack Stats Icon", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:211
+__( "Unavailable in Dev Mode", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:217
+__( "{{a}}Activate Site Stats{{/a}} to see detailed stats, likes, followers, subscribers, and more! {{a1}}Learn More{{/a1}}", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:218
+__( "Activate Site Stats", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:237
+__( "Days", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:276
+__( "Weeks", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:286
+__( "Months", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:296
+__( "Site Stats", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:314
+__( "Site Stats", "jetpack" ), // _inc/client/at-a-glance/stats/index.jsx:322
 __( "Verifying…", "jetpack" ), // _inc/client/traffic/verification-services/google.jsx:79
 __( "Site failed to verify: %(error)s", "jetpack" ), // _inc/client/traffic/verification-services/google.jsx:101
 __( "Google", "jetpack" ), // _inc/client/traffic/verification-services/google.jsx:187
