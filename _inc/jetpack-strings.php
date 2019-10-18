@@ -14,6 +14,7 @@ _x( "Traffic", "Navigation item.", "jetpack" ), // _inc/client/admin.js:115
 _x( "Writing", "Navigation item.", "jetpack" ), // _inc/client/admin.js:120
 _x( "Sharing", "Navigation item.", "jetpack" ), // _inc/client/admin.js:125
 __( "View your setup checklist", "jetpack" ), // _inc/client/my-plan/my-plan-header/checklist-cta.js:20
+<<<<<<< Updated upstream
 __( "Jetpack Free Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:41
 __( "Your plan: Jetpack Free", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:46
 __( "Worried about security? Get backups, automated security fixes and more: {{a}}Upgrade now{{/a}}", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:49
@@ -27,6 +28,27 @@ __( "Full security suite, marketing and revenue automation tools, unlimited vide
 __( "Jetpack Business Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:131
 __( "Your plan: Jetpack Professional", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:136
 __( "Full security suite, marketing and revenue automation tools, unlimited video hosting, unlimited themes, enhanced search, and priority support.", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:139
+=======
+__( "Jetpack Free Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:59
+__( "Your plan: Jetpack Free", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:64
+__( "Worried about security? Get backups, automated security fixes and more: {{a}}Upgrade now{{/a}}", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:67
+__( "Jetpack Personal Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:95
+__( "Your plan: Jetpack Personal", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:100
+__( "Daily backups, spam filtering, and priority support.", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:104
+__( "Spam filtering and priority support.", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:108
+__( "Jetpack Premium Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:124
+__( "Your plan: Jetpack Premium", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:129
+__( "Full security suite, marketing and revenue automation tools, unlimited video hosting, and priority support.", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:132
+__( "Jetpack Business Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:149
+__( "Your plan: Jetpack Professional", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:154
+__( "Full security suite, marketing and revenue automation tools, unlimited video hosting, unlimited themes, enhanced search, and priority support.", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:157
+__( "Your plan: Jetpack Free + Daily Backup", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:170
+__( "Worried about security? Get automated security fixes and more: {{a}}Upgrade now{{/a}}", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:171
+__( "Jetpack Daily Backup Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:186
+__( "Your plan: Jetpack Free + Real-time Backup", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:194
+__( "Worried about security? Get automated security fixes and more: {{a}}Upgrade now{{/a}}", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:195
+__( "Jetpack Real-time Backup Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:210
+>>>>>>> Stashed changes
 __( "Testing Jetpack Connection", "jetpack" ), // _inc/client/state/connection/actions.js:42
 __( "There was an error testing Jetpack. Error: %(error)s", "jetpack" ), // _inc/client/state/connection/actions.js:67
 __( "Disconnecting Jetpack", "jetpack" ), // _inc/client/state/connection/actions.js:129
@@ -173,96 +195,102 @@ __( "Create a Jetpack account to view your email followers", "jetpack" ), // _in
 __( "Allows readers to subscribe to your posts or comments, and receive notifications of new content by email.", "jetpack" ), // _inc/client/discussion/subscriptions.jsx:93
 __( "Enable the “subscribe to site” option on your comment form", "jetpack" ), // _inc/client/discussion/subscriptions.jsx:121
 __( "Enable the “subscribe to comments” option on your comment form", "jetpack" ), // _inc/client/discussion/subscriptions.jsx:134
-__( "Daily backup of all your site data with unlimited space and one-click restores", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:106
-__( "Daily backup of all your site data with unlimited space, one-click restores, automated security scanning, and priority support", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:111
-__( "Real-time backup of all your site data with unlimited space, one-click restores, automated security scanning, and priority support", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:116
-__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:131
-__( "Site Backups", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:135
-__( "Real-time backup of all your site data with unlimited space, one-click restores, and automated security scanning.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:137
-__( "View your security activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:145
-__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:158
-__( "Site Security", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:162
-__( " (powered by VaultPress).", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:163
-__( "View your security dashboard", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:170
-__( "View settings", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:181
-__( "A fast and performant website", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:206
-__( "Optimized performance", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:211
-__( "Load pages faster by serving your images from our global network of servers.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:214
-__( "Make your site faster", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:222
-__( "A folder holding real comments", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:232
-__( "Spam Filtering", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:236
-__( "Spam is automatically blocked from your comments.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:237
-__( "View your spam stats", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:244
-__( "View settings", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:255
-__( "A cloud with multiple types of content floating around it", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:268
-__( "Video Hosting", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:272
-__( "High-speed, high-definition video hosting with no third-party ads.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:274
-__( "Upload videos", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:281
-__( "Activate video hosting", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:288
-__( "Interface showing a chronological list of changes and updates in a site", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:300
-__( "Activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:306
-__( "View a chronological list of all the changes and updates to your site in an organized, readable way.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:308
-__( "View your site activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:316
-__( "A chart showing an healthy increase in earnings", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:328
-__( "Monetize your site with ads", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:333
-__( "WordAds lets you earn money by displaying promotional content. Start earning today.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:336
-__( "View your earnings", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:345
-__( "Start earning", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:352
-__( "A hand holding a loupe", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:367
-__( "Jetpack Search", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:371
-__( "Replace the default WordPress search with better results and filtering powered by Elasticsearch.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:373
-__( "Customize Search Widget", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:382
-__( "Activate Jetpack Search", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:389
-__( "Site stats showing an evolution in traffic and engagement", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:403
-__( "SEO Tools", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:407
-__( "Advanced SEO tools to help your site get found when people search for relevant content.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:409
-__( "Configure site SEO", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:418
-__( "Activate SEO tools", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:425
-__( "Site stats showing an evolution in traffic and engagement", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:439
-__( "Google Analytics", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:444
-__( "Complement WordPress.com’s stats with Google’s in-depth look at your visitors and traffic patterns.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:447
-__( "Configure Google Analytics", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:456
-__( "Activate Google Analytics", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:463
-__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:476
-__( "Try a premium theme", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:481
-__( "Access hundreds of beautifully designed premium themes at no extra cost.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:484
-__( "Browse premium themes", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:492
-__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:505
-__( "Marketing Automation", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:510
-__( "Schedule unlimited tweets, Facebook posts, and other social posts in advance.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:513
-__( "Schedule posts", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:522
-__( "Activate Publicize", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:529
-__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:548
-__( "Always-on security", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:552
-__( "Prevent login attacks, and get instant notifications when there’s an issue with your site.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:554
-__( "Set up your site security", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:562
-__( "A fast and performant website", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:572
-__( "Optimized performance", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:577
-__( "Load pages faster by serving your images from our global network of servers.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:580
-__( "Make your site faster", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:588
-__( "A wide variety of themes and tools to customize a site", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:598
-__( "Design the perfect website", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:603
-__( "Get unlimited access to hundreds of professional themes, and customize your site exactly how you like it.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:606
-__( "Explore free themes", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:614
-__( "Site stats showing an evolution in traffic and engagement", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:624
-__( "Increase traffic to your site", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:629
-__( "Reach a wider audience by automatically sharing your posts on social media.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:632
-__( "Start sharing", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:640
-__( "Interface showing a chronological list of changes and updates in a site", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:650
-__( "Site activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:656
-__( "View a chronological list of all the changes and updates to your site in an organized, readable way.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:658
-__( "View your site activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:666
-__( "Chat bubbles representing getting in touch with support", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:676
-__( "Support documentation", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:681
-__( "Need help? Learn about getting started, customizing your site, using advanced code snippets, and more.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:684
-__( "Search support docs", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:692
-__( "Take your site to the next level!", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:700
-__( "Get peace of mind with automated backups.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:703
-__( "Resolve issues quickly with priority support.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:704
-__( "Expand your audience with pro SEO tools.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:705
-__( "Customize your social posting schedule.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:706
-__( "Monetize your site by running high quality ads.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:707
-__( "Upgrade Jetpack now", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:714
+__( "A Jetpack Site securely backed up with Jetpack Backup", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:106
+__( "View Your Backups", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:116
+__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:135
+__( "Site Backups", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:139
+__( "Real-time backup of all your site data with unlimited space, one-click restores, and automated security scanning.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:141
+__( "View your security activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:149
+__( "Daily backup of all your site data with unlimited space and one-click restores", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:159
+__( "Daily backup of all your site data with unlimited space, one-click restores, automated security scanning, and priority support", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:164
+__( "Real-time backup of all your site data with unlimited space, one-click restores, automated security scanning, and priority support", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:169
+__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:184
+__( "Site Security", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:188
+__( " (powered by VaultPress).", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:189
+__( "View your security dashboard", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:196
+__( "View settings", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:207
+__( "Automated Daily Backups", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:218
+__( "We back up your website every day, so you never have to worry about your data again.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:219
+__( "Automated Real-time Backups", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:227
+__( "We back up your website with every change you make, making it easy to fix your mistakes.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:228
+__( "A fast and performant website", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:251
+__( "Optimized performance", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:256
+__( "Load pages faster by serving your images from our global network of servers.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:259
+__( "Make your site faster", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:267
+__( "A folder holding real comments", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:277
+__( "Spam Filtering", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:281
+__( "Spam is automatically blocked from your comments.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:282
+__( "View your spam stats", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:289
+__( "View settings", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:300
+__( "A cloud with multiple types of content floating around it", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:313
+__( "Video Hosting", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:317
+__( "High-speed, high-definition video hosting with no third-party ads.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:319
+__( "Upload videos", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:326
+__( "Activate video hosting", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:333
+__( "Interface showing a chronological list of changes and updates in a site", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:345
+__( "Activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:351
+__( "View a chronological list of all the changes and updates to your site in an organized, readable way.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:353
+__( "View your site activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:361
+__( "A chart showing an healthy increase in earnings", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:373
+__( "Monetize your site with ads", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:378
+__( "WordAds lets you earn money by displaying promotional content. Start earning today.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:381
+__( "View your earnings", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:390
+__( "Start earning", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:397
+__( "A hand holding a loupe", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:412
+__( "Jetpack Search", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:416
+__( "Replace the default WordPress search with better results and filtering powered by Elasticsearch.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:418
+__( "Customize Search Widget", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:427
+__( "Activate Jetpack Search", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:434
+__( "Site stats showing an evolution in traffic and engagement", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:448
+__( "SEO Tools", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:452
+__( "Advanced SEO tools to help your site get found when people search for relevant content.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:454
+__( "Configure site SEO", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:463
+__( "Activate SEO tools", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:470
+__( "Site stats showing an evolution in traffic and engagement", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:484
+__( "Google Analytics", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:489
+__( "Complement WordPress.com’s stats with Google’s in-depth look at your visitors and traffic patterns.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:492
+__( "Configure Google Analytics", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:501
+__( "Activate Google Analytics", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:508
+__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:521
+__( "Try a premium theme", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:526
+__( "Access hundreds of beautifully designed premium themes at no extra cost.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:529
+__( "Browse premium themes", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:537
+__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:550
+__( "Marketing Automation", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:555
+__( "Schedule unlimited tweets, Facebook posts, and other social posts in advance.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:558
+__( "Schedule posts", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:567
+__( "Activate Publicize", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:574
+__( "A secure site, locked and protected by Jetpack", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:596
+__( "Always-on security", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:600
+__( "Prevent login attacks, and get instant notifications when there’s an issue with your site.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:602
+__( "Set up your site security", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:610
+__( "A fast and performant website", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:620
+__( "Optimized performance", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:625
+__( "Load pages faster by serving your images from our global network of servers.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:628
+__( "Make your site faster", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:636
+__( "A wide variety of themes and tools to customize a site", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:646
+__( "Design the perfect website", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:651
+__( "Get unlimited access to hundreds of professional themes, and customize your site exactly how you like it.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:654
+__( "Explore free themes", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:662
+__( "Site stats showing an evolution in traffic and engagement", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:672
+__( "Increase traffic to your site", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:677
+__( "Reach a wider audience by automatically sharing your posts on social media.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:680
+__( "Start sharing", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:688
+__( "Interface showing a chronological list of changes and updates in a site", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:698
+__( "Site activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:704
+__( "View a chronological list of all the changes and updates to your site in an organized, readable way.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:706
+__( "View your site activity", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:714
+__( "Chat bubbles representing getting in touch with support", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:724
+__( "Support documentation", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:729
+__( "Need help? Learn about getting started, customizing your site, using advanced code snippets, and more.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:732
+__( "Search support docs", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:740
+__( "Take your site to the next level!", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:748
+__( "Get peace of mind with automated backups.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:751
+__( "Resolve issues quickly with priority support.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:752
+__( "Expand your audience with pro SEO tools.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:753
+__( "Customize your social posting schedule.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:754
+__( "Monetize your site by running high quality ads.", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:755
+__( "Upgrade Jetpack now", "jetpack" ), // _inc/client/my-plan/my-plan-body.jsx:762
 _n( "Please correct the issue below and try again.", "Please correct the issues listed below and try again.", 1, "jetpack" ), // _inc/client/notices/validation-error-list.jsx:21
 __( "Performance", "jetpack" ), // _inc/client/performance/index.jsx:50
 __( "Load pages faster, optimize images, and speed up your visitors’ experience.", "jetpack" ), // _inc/client/performance/index.jsx:51
@@ -289,6 +317,7 @@ __( "Speed up image load times", "jetpack" ), // _inc/client/performance/speed-u
 __( "Speed up static file load times", "jetpack" ), // _inc/client/performance/speed-up-site.jsx:269
 __( "Lazy-loading images will improve your site’s speed and create a smoother viewing experience. Images will load as visitors scroll down the screen, instead of all at once.", "jetpack" ), // _inc/client/performance/speed-up-site.jsx:286
 __( "Enable Lazy Loading for images", "jetpack" ), // _inc/client/performance/speed-up-site.jsx:300
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -535,6 +564,8 @@ __( "View all Jetpack plans", "jetpack" ), // _inc/client/plans/plan-grid.jsx:74
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 __( "You’re currently on Jetpack %(plan)s.", "jetpack" ), // _inc/client/plans/plan-grid.jsx:87
 __( "Your Plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:95
 __( "Manage your plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:97
@@ -621,6 +652,9 @@ __( "Yearly", "jetpack" ), // _inc/client/plans/plan-grid.jsx:109
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1066,11 +1100,14 @@ __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the cont
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:160
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1405,6 +1442,9 @@ _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composin
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1735,7 +1775,11 @@ __( "Download the free apps", "jetpack" ), // _inc/client/components/apps-card/i
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 _n( "No activity this period", "Notice in the empty statistics chart", 1, "jetpack" ), // _inc/client/components/chart/index.jsx:124
+=======
+_x( "No activity this period", "Notice in the empty statistics chart", "jetpack" ), // _inc/client/components/chart/index.jsx:124
+>>>>>>> Stashed changes
 =======
 _x( "No activity this period", "Notice in the empty statistics chart", "jetpack" ), // _inc/client/components/chart/index.jsx:124
 >>>>>>> Stashed changes
@@ -2083,6 +2127,9 @@ _x( "Writing", "Navigation item.", "jetpack" ), // _inc/client/components/naviga
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2254,10 +2301,13 @@ _x( "Save settings", "Button caption", "jetpack" ), // _inc/client/components/se
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 __( "Learn more", "jetpack" ), // _inc/client/components/support-info/index.jsx:79
 __( "Learn more", "jetpack" ), // _inc/client/components/support-info/index.jsx:89
 __( "Privacy information", "jetpack" ), // _inc/client/components/support-info/index.jsx:99
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
