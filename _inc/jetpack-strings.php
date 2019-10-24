@@ -37,6 +37,7 @@ __( "View your setup checklist", "jetpack" ), // _inc/client/my-plan/my-plan-hea
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Jetpack Free Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:41
 __( "Your plan: Jetpack Free", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:46
 __( "Worried about security? Get backups, automated security fixes and more: {{a}}Upgrade now{{/a}}", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:49
@@ -51,6 +52,8 @@ __( "Jetpack Business Plan", "jetpack" ), // _inc/client/my-plan/my-plan-header/
 __( "Your plan: Jetpack Professional", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:136
 __( "Full security suite, marketing and revenue automation tools, unlimited video hosting, unlimited themes, enhanced search, and priority support.", "jetpack" ), // _inc/client/my-plan/my-plan-header/index.js:139
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -136,6 +139,9 @@ __( "Jetpack Real-time Backup Plan", "jetpack" ), // _inc/client/my-plan/my-plan
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -207,6 +213,9 @@ __( "Options failed to reset.", "jetpack" ), // _inc/client/state/dev-version/ac
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -604,11 +613,14 @@ __( "Enable Lazy Loading for images", "jetpack" ), // _inc/client/performance/sp
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "You’re currently on Jetpack %(plan)s.", "jetpack" ), // _inc/client/plans/plan-grid.jsx:62
 __( "Your Plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:70
 __( "Manage your plan", "jetpack" ), // _inc/client/plans/plan-grid.jsx:72
 __( "View all Jetpack plans", "jetpack" ), // _inc/client/plans/plan-grid.jsx:74
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -924,6 +936,9 @@ __( "Yearly", "jetpack" ), // _inc/client/plans/plan-grid.jsx:109
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -1438,11 +1453,14 @@ __( "Duplicate existing posts, pages, Testimonials, and Portfolios. All the cont
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 __( "Allows you to compose content with links, lists, and other styles using the Markdown syntax. This setting will allow you to write with the help of Markdown in the Classic Editor or within a Classic Editor block.", "jetpack" ), // _inc/client/writing/composing.jsx:80
 __( "LaTeX is a powerful markup language for writing complex mathematical equations and formulas.", "jetpack" ), // _inc/client/writing/composing.jsx:114
 __( "Compose using shortcodes to embed media from popular sites", "jetpack" ), // _inc/client/writing/composing.jsx:150
 _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composing.jsx:160
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -1846,6 +1864,9 @@ _x( "Composing", "Settings header", "jetpack" ), // _inc/client/writing/composin
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -2245,7 +2266,11 @@ __( "Download the free apps", "jetpack" ), // _inc/client/components/apps-card/i
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 _n( "No activity this period", "Notice in the empty statistics chart", 1, "jetpack" ), // _inc/client/components/chart/index.jsx:124
+=======
+_x( "No activity this period", "Notice in the empty statistics chart", "jetpack" ), // _inc/client/components/chart/index.jsx:124
+>>>>>>> Stashed changes
 =======
 _x( "No activity this period", "Notice in the empty statistics chart", "jetpack" ), // _inc/client/components/chart/index.jsx:124
 >>>>>>> Stashed changes
@@ -2492,26 +2517,6 @@ __( "Saving…", "jetpack" ), // _inc/client/components/forms/index.jsx:148
 __( "Save Settings", "jetpack" ), // _inc/client/components/forms/index.jsx:148
 __( "Stars", "jetpack" ), // _inc/client/components/jetpack-dialogue/index.jsx:52
 __( "Jupiter", "jetpack" ), // _inc/client/components/jetpack-dialogue/index.jsx:59
-__( "Daily, automated backups (unlimited storage)", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:41
-__( "Priority support", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:45
-__( "Spam filtering", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:49
-__( "Daily, automated backups (unlimited storage)", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:57
-__( "Daily, automated malware scanning", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:61
-__( "Priority support", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:65
-__( "Unlimited, high-speed video hosting", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:69
-__( "Real-time, automated backups (unlimited storage)", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:77
-__( "Daily, automated malware scanning with automated resolution", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:81
-__( "Priority support", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:85
-__( "Unlimited, high-speed video hosting", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:89
-__( "SEO preview tools", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:93
-__( "Site stats, related content, and sharing tools", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:100
-__( "Brute force attack protection and downtime monitoring", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:104
-__( "Unlimited, high-speed image hosting", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:108
-__( "Disconnect Jetpack", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:138
-__( "By disconnecting %(siteName)s from WordPress.com you will no longer have access to the following:", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:140
-_x( "Stay connected", "A caption for a button to cancel disconnection.", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:159
-_x( "Disconnect", "A caption for a button to disconnect.", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:164
-__( "Read more about Jetpack benefits", "jetpack" ), // _inc/client/components/jetpack-disconnect-dialog/index.jsx:169
 __( "What would you like to see on your Jetpack Dashboard?", "jetpack" ), // _inc/client/components/jetpack-notices/feedback-dash-request.jsx:38
 __( "Let us know!", "jetpack" ), // _inc/client/components/jetpack-notices/feedback-dash-request.jsx:40
 __( "You are currently running a development version of Jetpack.", "jetpack" ), // _inc/client/components/jetpack-notices/index.jsx:37
@@ -2543,6 +2548,26 @@ __( "You're fueled up and ready to go, Jetpack is now active.", "jetpack" ), // 
 __( "You're fueled up and ready to go.", "jetpack" ), // _inc/client/components/jetpack-notices/state-notices.jsx:213
 __( "Your server is misconfigured, which means that Jetpack Protect is unable to effectively protect your site.", "jetpack" ), // _inc/client/components/jetpack-notices/state-notices.jsx:217
 __( "Learn More", "jetpack" ), // _inc/client/components/jetpack-notices/state-notices.jsx:223
+<<<<<<< Updated upstream
+=======
+__( "Disconnect Jetpack", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/dialog.jsx:121
+__( "Disable Jetpack", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/dialog.jsx:121
+__( "Are you sure you want to disconnect?", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/dialog.jsx:137
+__( "Are you sure you want to disconnect and deactivate?", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/dialog.jsx:138
+__( "Close", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/dialog.jsx:141
+__( "Disconnect", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/dialog.jsx:143
+__( "Disable", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/dialog.jsx:143
+__( "Speed up your site and provide mobile-ready images with {{a}}our CDN{{/a}}", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/features.jsx:30
+__( "Block {{a}}brute force attacks{{/a}} and get immediate notifications if your site is down", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/features.jsx:49
+__( "Grow your traffic with automated social {{a}}publishing and sharing{{/a}}", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/features.jsx:71
+__( "Jetpack is currently powering features on your site. Once you disconnect Jetpack, these features will no longer be available and your site may no longer function the same way.", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/features.jsx:99
+__( "Jetpack is currently powering features on your site. Once you disable Jetpack, these features will no longer be available and your site may no longer function the same way.", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/features.jsx:102
+__( " We’ve highlighted some of the features you rely on below.", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/features.jsx:106
+__( "Jetpack has many powerful tools that can help you achieve your goals", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/features.jsx:127
+__( "Have a question? We’d love to help! {{a}}Send a question to the Jetpack support team.{{/a}}", "jetpack" ), // _inc/client/components/jetpack-termination-dialog/features.jsx:138
+__( "Dashboard", "jetpack" ), // _inc/client/components/masthead/index.jsx:95
+__( "Settings", "jetpack" ), // _inc/client/components/masthead/index.jsx:103
+>>>>>>> Stashed changes
 __( "Email me a link to log in to the app", "jetpack" ), // _inc/client/components/mobile-magic-link/index.jsx:52
 __( "Easily log in to the WordPress app by clicking the link we'll send to the email address on your account.", "jetpack" ), // _inc/client/components/mobile-magic-link/index.jsx:54
 _x( "Cancel", "A caption for a button to cancel an action.", "jetpack" ), // _inc/client/components/mobile-magic-link/index.jsx:63
@@ -2685,6 +2710,9 @@ _x( "Writing", "Navigation item.", "jetpack" ), // _inc/client/components/naviga
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -2925,10 +2953,13 @@ _x( "Save settings", "Button caption", "jetpack" ), // _inc/client/components/se
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
 __( "Learn more", "jetpack" ), // _inc/client/components/support-info/index.jsx:79
 __( "Learn more", "jetpack" ), // _inc/client/components/support-info/index.jsx:89
 __( "Privacy information", "jetpack" ), // _inc/client/components/support-info/index.jsx:99
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
