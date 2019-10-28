@@ -62,7 +62,7 @@ export class Plans extends React.Component {
 		// 	`is-${ planType }-plan`
 		// );
 		return (
-			<>
+			<React.Fragment>
 				<QuerySite />
 				<h1 className="plans-section__header">Single Products</h1>
 				<h2 className="plans-section__subheader">
@@ -95,7 +95,7 @@ export class Plans extends React.Component {
 					</AccentedCard>
 				</div>
 				<PlanGrid />
-			</>
+			</React.Fragment>
 		);
 	}
 }
