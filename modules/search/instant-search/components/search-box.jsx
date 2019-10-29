@@ -9,7 +9,7 @@ import { __ } from '@wordpress/i18n';
 class SearchBox extends Component {
 	render() {
 		return (
-			<div className={ 'jp-instant-search__box' }>
+			<div className="jp-instant-search__box" role="search">
 				{ /* TODO: Add support for preserving label text */ }
 				<span className="screen-reader-text">{ __( 'Search', 'jetpack' ) }</span>
 				<input
