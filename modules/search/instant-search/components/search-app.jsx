@@ -185,7 +185,11 @@ class SearchApp extends Component {
 	renderWidgets() {
 		return this.props.options.widgets.map( widget =>
 			createPortal(
-				<div id={ `${ widget.widget_id }-portaled-wrapper` }>
+				<form
+					id={ `${ widget.widget_id }-portaled-wrapper` }
+					className="jetpack-instant-search__portaled-wrapper"
+					role="search"
+				>
 					<div className="search-form">
 						<SearchBox
 							onChangeQuery={ this.onChangeQuery }
@@ -207,7 +211,7 @@ class SearchApp extends Component {
 						results={ this.state.response }
 						widget={ widget }
 					/>
-				</div>,
+				</form>,
 				document.getElementById( `${ widget.widget_id }-wrapper` )
 			)
 		);
