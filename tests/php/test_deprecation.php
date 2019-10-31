@@ -151,12 +151,12 @@ class WP_Test_Jetpack_Deprecation extends WP_UnitTestCase {
 		return array(
 
 			array(
-				'class-jetpack-ixr-client.php',
+				'class.jetpack-ixr-client.php',
 				null,
 				E_USER_NOTICE,
 			),
 			array(
-				'class-jetpack-xmlrpc-server.php',
+				'class.jetpack-xmlrpc-server.php',
 				null,
 				E_USER_NOTICE,
 			),
