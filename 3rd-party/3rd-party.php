@@ -14,6 +14,7 @@ $compat_files = array(
 	'buddypress.php',
 	'class.jetpack-amp-support.php',
 	'class.jetpack-amp-vimeo-shortcode.php',
+	'class.jetpack-amp-tweet-shortcode.php',
 	'class.jetpack-modules-overrides.php', // Special case. Tools to be used to override module settings.
 	'debug-bar.php',
 	'domain-mapping.php',
