@@ -18,7 +18,7 @@ class Jetpack_AMP_Tweet_Shortcode {
 	 * Add the shortcode filter.
 	 */
 	public static function init() {
-		add_filter( 'do_shortcode_tag', array( 'Jetpack_AMP_Tweet_Shortcode', 'filter_shortcode' ), 10, 3 );
+		add_filter( 'do_shortcode_tag', array( __CLASS__, 'filter_shortcode' ), 10, 3 );
 	}
 
 	/**
