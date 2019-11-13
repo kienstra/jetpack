@@ -15,14 +15,6 @@ class Jetpack_AMP_Soundcloud_Shortcode {
 	const URL_PATTERN = '#https?:\/\/twitter\.com(?:\/\#\!\/|\/)(?P<username>[a-zA-Z0-9_]{1,20})\/status(?:es)?\/(?P<tweet>\d+)#i';
 
 	/**
-	 * Add the shortcode filter.
-	 */
-	public static function init() {
-		add_filter( 'do_shortcode_tag', array( __CLASS__, 'filter_shortcode' ), 10, 3 );
-		add_filter( 'embed_oembed_html', array( __CLASS__, 'filter_embed_oembed_html' ), 10, 2 );
-	}
-
-	/**
 	 * Renders the [soundcloud] shortcode.
 	 *
 	 * @param string $html The initial shortcode HTML.

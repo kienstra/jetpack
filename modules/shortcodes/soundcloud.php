@@ -139,14 +139,63 @@ function soundcloud_shortcode( $atts, $content = null ) {
 		'https://w.soundcloud.com/player/'
 	);
 
-	return sprintf(
-		'<iframe width="%1$s" height="%2$d" scrolling="no" frameborder="no" src="%3$s"></iframe>',
-		esc_attr( $width ),
-		esc_attr( $height ),
-		$url
-	);
+	if (
+		class_exists( 'Jetpack_AMP_Support' )
+		&& Jetpack_AMP_Support::is_amp_request()
+	) {
+		return jetpack_amp_soundcloud_shortcode( $url, $width, $height, $options['visual'] );
+	} else {
+		return sprintf(
+			'<iframe width="%1$s" height="%2$d" scrolling="no" frameborder="no" src="%3$s"></iframe>',
+			esc_attr( $width ),
+			esc_attr( $height ),
+			esc_url( $url )
+		);
+	}
 }
 add_shortcode( 'soundcloud', 'soundcloud_shortcode' );
+
+/**
+ * Gets the AMP markup for the [soundcloud] shortcode.
+ *
+ * @param string     $url       The URL of the shortcode.
+ * @param int|string $width     The width as an int, or '100%'.
+ * @param int        $height    The height.
+ * @param bool       $is_visual Whether to display in full-width visual mode.
+ * @return string $markup The AMP-compatible markup.
+ */
+function jetpack_amp_soundcloud_shortcode( $url, $width, $height, $is_visual ) {
+	if ( ! absint( $width ) || '100%' === $width ) {
+		$layout = 'fixed-height';
+		$width  = 'auto';
+	} else {
+		$layout = 'responsive';
+	}
+
+	$parsed_url = wp_parse_url( $url );
+	if ( isset( $parsed_url['query'] ) && preg_match( '#tracks%2F(?P<track_id>\d+)#', $parsed_url['query'], $matches ) ) {
+		$id_attribute_name  = 'data-trackid';
+		$id_attribute_value = $matches['track_id'];
+	} elseif ( isset( $parsed_url['query'] ) && preg_match( '#playlists%2F(?P<playlist_id>\d+)#', $parsed_url['query'], $matches ) ) {
+		$id_attribute_name  = 'data-playlistid';
+		$id_attribute_value = $matches['playlist_id'];
+	} else {
+		return sprintf(
+			'<a href="%s" class="amp-wp-embed-fallback"></a>',
+			esc_url( $url )
+		);
+	}
+
+	return sprintf(
+		'<amp-soundcloud %1$s="%2$s" data-visual="%3$s" width="%4$s" height="%5$d" layout="%6$s"></amp-soundcloud>',
+		esc_attr( $id_attribute_name ),
+		esc_attr( $id_attribute_value ),
+		$is_visual ? 'true' : 'false',
+		esc_attr( $width ),
+		esc_attr( $height ),
+		esc_attr( $layout )
+	);
+}
 
 /**
  * Plugin options getter

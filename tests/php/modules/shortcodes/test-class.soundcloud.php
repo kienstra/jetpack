@@ -116,4 +116,73 @@ class WP_Test_Jetpack_Shortcodes_Soundcloud extends WP_UnitTestCase {
 
 		$this->assertEquals( $shortcode_content, '<a href="https://player.soundcloud.com/player.swf?url=http://api.soundcloud.com/tracks/70198773">https://player.soundcloud.com/player.swf?url=http://api.soundcloud.com/tracks/70198773</a>' );
 	}
+
+	/**
+	 * Gets the test data for test_jetpack_amp_soundcloud_shortcode().
+	 *
+	 * @return array[] The test data.
+	 */
+	public function get_amp_souncloud_data() {
+		$track_id             = '91915141';
+		$base_url             = '//api.soundcloud.com';
+		$url_with_track_id    = "{$base_url}?tracks%2F{$track_id}";
+		$playlist_id          = '61346166';
+		$url_with_playlist_id = "{$base_url}?playlists%2F{$playlist_id}";
+		$width                = 400;
+		$height               = 300;
+
+		return array(
+			'url_without_playlist_or_track' => array(
+				$base_url,
+				$width,
+				$height,
+				false,
+				'<a href="' . $base_url . '" class="amp-wp-embed-fallback"></a>',
+			),
+			'url_with_track_id'    => array(
+				$url_with_track_id,
+				$width,
+				$height,
+				false,
+				'<amp-soundcloud data-trackid="' . $track_id . '" data-visual="false" width="' . $width . '" height="' . $height . '" layout="responsive"></amp-soundcloud>'
+			),
+			'url_with_playlist_id' => array(
+				$url_with_playlist_id,
+				$width,
+				$height,
+				false,
+				'<amp-soundcloud data-playlistid="' . $playlist_id . '" data-visual="false" width="' . $width . '" height="' . $height .  '" layout="responsive"></amp-soundcloud>'
+			),
+			'visual_mode'          => array(
+				$url_with_playlist_id,
+				$width,
+				$height,
+				true,
+				'<amp-soundcloud data-playlistid="' . $playlist_id . '" data-visual="true" width="' . $width . '" height="' . $height . '" layout="responsive"></amp-soundcloud>'
+			),
+			'100_percent_width'    => array(
+				$url_with_playlist_id,
+				'100%',
+				$height,
+				true,
+				'<amp-soundcloud data-playlistid="' . $playlist_id . '" data-visual="true" width="auto" height="' . $height .  '" layout="fixed-height"></amp-soundcloud>'
+			),
+		);
+	}
+
+	/**
+	 * Test jetpack_amp_soundcloud_shortcode.
+	 *
+	 * @dataProvider get_amp_souncloud_data
+	 * @covers ::jetpack_amp_soundcloud_shortcode
+	 *
+	 * @param string $url       The URL of the shortcode.
+	 * @param int    $width     The width.
+	 * @param int    $height    The height.
+	 * @param bool   $is_visual Whether to display in full-width visual mode.
+	 * @param string $expected The expected return value.
+	 */
+	public function test_jetpack_amp_soundcloud_shortcode( $url, $width, $height, $is_visual, $expected ) {
+		$this->assertEquals( $expected, jetpack_amp_soundcloud_shortcode( $url, $width, $height, $is_visual ) );
+	}
 }

@@ -1,6 +1,6 @@
 <?php
 
-require_once JETPACK__PLUGIN_DIR . '3rd-party/class.jetpack-amp-soundcloud-shortcode.php';
+require_once JETPACK__PLUGIN_DIR . 'modules/shortcodes/soundcloud.php';
 
 /**
  * Tests for class Jetpack_AMP_Soundcloud_Shortcode.
@@ -127,7 +127,7 @@ class WP_Test_Jetpack_AMP_Soundcloud_Shortcode extends WP_UnitTestCase {
 
 			'shortcode_with_track_api_url'        => array(
 				'[soundcloud url=https://api.soundcloud.com/tracks/90097394]' . PHP_EOL,
-				'<amp-soundcloud data-trackid="90097394" data-visual="false" height="166" layout="fixed-height"></amp-soundcloud>' . PHP_EOL,
+				'<amp-soundcloud data-trackid="90097394" data-visual="false" width="auto" height="166" layout="fixed-height"></amp-soundcloud>' . PHP_EOL,
 			),
 
 			'shortcode_with_track_permalink'      => array(
@@ -166,27 +166,9 @@ class WP_Test_Jetpack_AMP_Soundcloud_Shortcode extends WP_UnitTestCase {
 	 */
 	public function test__conversion( $source, $expected ) {
 		add_filter( 'jetpack_is_amp_request', '__return_true' );
-		Jetpack_AMP_Soundcloud_Shortcode::init();
+		add_shortcode( 'soundcloud', 'soundcloud_shortcode' );
 		$filtered_content = apply_filters( 'the_content', $source );
 
 		$this->assertEquals( $expected, $filtered_content );
-	}
-
-	/**
-	 * Tests that the [tweet] shortcode filter does not filter the markup on non-AMP endpoints.
-	 *
-	 * @covers Jetpack_AMP_Soundcloud_Shortcode::filter_shortcode()
-	 */
-	public function test_filter_shortcode_non_amp() {
-		$initial_shortcode_markup = '<div><span>This is the shortcode markup</span></div>';
-
-		$this->assertEquals(
-			$initial_shortcode_markup,
-			Jetpack_AMP_Soundcloud_Shortcode::filter_shortcode(
-				$initial_shortcode_markup,
-				'soundcloud',
-				array( 'url' => $this->playlist_url )
-			)
-		);
 	}
 }
