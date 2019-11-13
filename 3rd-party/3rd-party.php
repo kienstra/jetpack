@@ -13,7 +13,6 @@ $compat_files = array(
 	'bitly.php',
 	'buddypress.php',
 	'class.jetpack-amp-support.php',
-	'class.jetpack-amp-soundcloud-shortcode.php',
 	'class.jetpack-amp-tweet-shortcode.php',
 	'class.jetpack-amp-vimeo-shortcode.php',
 	'class.jetpack-modules-overrides.php', // Special case. Tools to be used to override module settings.
